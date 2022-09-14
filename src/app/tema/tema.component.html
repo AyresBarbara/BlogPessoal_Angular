@@ -57,8 +57,8 @@
 
                     </td>
 
-                    <button class="btn btn-info mr-3">Editar</button>
-                    <button class="btn btn-danger">Apagar</button>
+                    <button class="btn btn-info mr-3" [routerLink]="['/tema-edit', item.id ]">Editar</button>
+                    <button class="btn btn-danger" [routerLink]="['/tema-delete', item.id]">Apagar</button>
                     
                   </tr>
                 </tbody>
